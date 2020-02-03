@@ -5,6 +5,7 @@
 }
 
 body {
+    width: 800px;
     background: #FFF;
     font-family: Arial, Helvetica, sans-serif;
     text-rendering: optimizeLegibility !important;
@@ -20,7 +21,7 @@ header#main-header {
 }
 
 header#main-header div#texto-header {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: #FFF;
     padding-left: 80px;
@@ -28,11 +29,11 @@ header#main-header div#texto-header {
 }
 
 header#main-header div#logo-header {
-    padding-top: 226px;
+    padding-top: 227px;
 }
 
 section#main-section div#texto-bemvindo {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: #0169a6;
     padding-top: 20px;
@@ -53,23 +54,213 @@ section#text-section p{
     color: #0169a6;
 }
 
-section#boxes div#box-1 {
-    display: flex;
+div#boxes {
+    align-items: center;
 }
 
-/* outras sessões box1*/
-
-section#boxes div#box-2 {
+section#line-box1 {
     display: flex;
+    justify-content: center;
 }
 
-/* outras sessões box2*/
+section#line-box1 div#line-box1-1-header  {
+    display: flex;
+    align-items: center;
+}
+
+section#line-box1 div#line-box1-1-header p {
+    background: #92D050;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+section#line-box1 div#line-box1-1-header p:hover {
+    background: #FFC000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+section#line-box1 div#line-box1-2-header p {
+    background: #92D050;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+section#line-box1 div#line-box1-2-header p:hover {
+    background: #FFC000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+section#line-box2 div#line-box2-1-header p {
+    background: #92D050;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+section#line-box2 div#line-box2-1-header p:hover {
+    background: #FFC000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+section#line-box1 div#line-box1-1{
+    border: 1px solid #92D050;
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+section#line-box1 div#line-box1-1:hover {
+    border: 1px solid #FFC000;
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: 20px;
+}
+section#line-box1 div#line-box1-2{
+    border: 1px solid #92D050;
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+section#line-box1 div#line-box1-2:hover {
+    border: 1px solid #FFC000;
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+section#line-box1 div#line-box1-2-header  {
+    display: flex;
+    align-items: center;
+}
+
+section#line-box2 {
+    display: flex;
+    justify-content: center;
+}
+
+section#line-box2 div#line-box2-1-header  {
+    display: flex;
+    align-items: center;
+}
+
+section#line-box2 div#line-box2-1 {
+    border: 1px solid #92D050;
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: 20px
+}
+
+section#line-box2 div#line-box2-1:hover {
+    border: 1px solid #FFC000;
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: 20px
+}
+
+section#line-box2 div#line-box2-2 {
+    border: 1px solid #92D050;
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+section#line-box2 div#line-box2-2:hover {
+    border: 1px solid #FFC000;
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+section#line-box1 div#line-box1-1 div#underline,
+section#line-box1 div#line-box1-2 div#underline,
+section#line-box2 div#line-box2-1 div#underline,
+section#line-box2 div#line-box2-2 div#underline {
+
+    border-bottom: 2px solid #92D050;
+
+}
+
+section#line-box1 div#line-box1-1 div#underline:hover,
+section#line-box1 div#line-box1-2 div#underline:hover,
+section#line-box2 div#line-box2-1 div#underline:hover,
+section#line-box2 div#line-box2-2 div#underline:hover {
+
+    border-bottom: 2px solid #FFC000;
+
+}
+
+section#texto-fim {
+    font-size: 16px;
+    padding-top: 40px;
+    text-align: center;
+    color: #0169a6;
+}
+
+section#btn-click {
+    width: 300px;
+    height: 80px;
+    border-radius: 15px;
+    background: -moz-linear-gradient(left, #006da7 0%, #68b125 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #006da7 0%,#68b125 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #006da7 0%,#68b125 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006da7', endColorstr='#68b125',GradientType=1 ); /* IE6-9 */
+}
+
+section#btn-click p {
+    text-align: center;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+section#links {
+    align-items: center;
+}
 
 section#links ul {
     display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+section#logo-bottom {
+    display: flex;
+    justify-content: center;
 }
 
 section#logo-bottom img#img-bottom {
     width: 200;
     height: 50;
 }
+
+
