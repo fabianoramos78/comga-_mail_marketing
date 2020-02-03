@@ -52,3 +52,24 @@ section#text-section p{
     padding-left: 80px;
     color: #0169a6;
 }
+
+section#boxes div#box-1 {
+    display: flex;
+}
+
+/* outras sessões box1*/
+
+section#boxes div#box-2 {
+    display: flex;
+}
+
+/* outras sessões box2*/
+
+section#links ul {
+    display: flex;
+}
+
+section#logo-bottom img#img-bottom {
+    width: 200;
+    height: 50;
+}
